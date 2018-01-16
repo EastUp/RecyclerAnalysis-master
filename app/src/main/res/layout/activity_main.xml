@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/recycler_view"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="RecyclerView更全解析"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_marginTop="58dp"
+        android:layout_width="match_parent"
+        android:text="基本使用"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:onClick="basicUse"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="58dp"
+        android:layout_width="match_parent"
+        android:text="通用万能Adapter"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:onClick="commonAdapter"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="58dp"
+        android:layout_width="match_parent"
+        android:text="添加头部和底部"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:onClick="headerFooter"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="58dp"
+        android:layout_width="match_parent"
+        android:text="下拉刷新上拉加载"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:onClick="refreshLoad"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="58dp"
+        android:layout_width="match_parent"
+        android:text="拖拽列表排序删除"
+        android:gravity="center"
+        android:textSize="16sp"
+        android:onClick="dragItemAnimator"
+        android:layout_margin="10dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
